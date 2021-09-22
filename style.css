@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+
+h1{
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+body{
+  background-color: slategrey;
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.container{
+  width: 60%;
+  margin: auto;
+}
+
+input, label, textarea{
+  display: block;
+}
+
+input, textarea{
+  margin-bottom: 0.5rem;
+  width: 100%;
+}
+
+#check-button{
+  display: block;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin: auto;
+  
+  border-width: medium;
+  border-radius: 0.5rem;
+  background: transparent;
+  border-color: white;
+}
+
+label{
+  
+  font-weight: bolder;
+}
+
+textarea{
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bolder;
+  background: transparent;
+  margin-top: 1rem;
+  text-align: center;
+}
