@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;0,700;0,800;1,400&display=swap');
+
+:root {
+    --primary-color: black;
+    --gray-color: #6B7280;
+    --offWhite-color: #F3F4F6;
+}
 
 h1{
   margin-bottom: 3rem;
@@ -50,4 +57,48 @@ textarea{
   background: transparent;
   margin-top: 1rem;
   text-align: center;
+}
+
+.footer{
+    background-color: var(--primary-color);
+    border-top-right-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
+    color: white;
+}
+
+.footer .link{
+    color: white;
+}
+
+.social-links{
+    padding-bottom: 0rem;
+}
+
+.footer ul{
+    padding-inline-start: 0px;
+    list-style: none;
+}
+
+.footer-header{
+    font-weight: bold;
+    font-size: large;
+}
+
+
+.list-non-bullet {
+    list-style: none;
+    text-decoration: none;
+
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+    text-decoration: none;
+}
+
+.list-padding{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
