@@ -4,6 +4,16 @@ const check = document.querySelector("#check-button");
 const resultBox = document.querySelector("#result");
 
 
+
+function isEntryPositive(){
+    if(luckyNumber.value > 0){
+        checkLuck();
+    }else{
+        
+        resultBox.value = "You cannot enter 0 or negative number for lucky number";
+    }
+}
+
 function checkLuck(){
   console.log("clicked")
   const dob = dateOfBirth.value;
@@ -38,5 +48,5 @@ function compareValues(sum, luckyNumber){
 }
 
 check.addEventListener("click", function(){
-  checkLuck();
+  isEntryPositive();
 })
