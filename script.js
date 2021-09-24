@@ -29,7 +29,7 @@ function calculateSum(dob){
 function compareValues(sum, luckyNumber){
   if(sum%luckyNumber === 0){
     console.log("You are lucky")
-    resultBox.value = "Your Birthday is Lucky ✨";
+    resultBox.value = "Your Birthday is Lucky!! ✨";
     
   }else{
     resultBox.value = "Uh oh! your Birthday is not lucky 😵‍💫";
